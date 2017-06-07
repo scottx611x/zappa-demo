@@ -35,6 +35,8 @@ In short, this allows for great horizontal scaling, zero server maintenance/down
 
 > **ANOTHER NOTE: A prior Zappa deployment is required for Travis auto-updating to work**
 
+> **ONE MORE NOTE: AWS_ACCESS_KEY & AWS_SECRET_ACCESS_KEY env. variables need to be set in travis for the auto-updating to work properly.**
+
 # **BONUS**
 **[Ngrok](https://ngrok.com/):** is a cool tool to expose a local server behind a NAT or firewall to the internet.
 
