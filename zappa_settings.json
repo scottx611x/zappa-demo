@@ -1,6 +1,7 @@
 {
     "development": {
-        "app_function": "index.app", 
+        "app_function": "index.app",
+        "aws_region": "us-east-1", 
         "profile_name": "scottx611x@gmail.com", 
         "s3_bucket": "zappa-demo-534d2b5a-ce0c-45df-9999-51ff32ab65d3"
     }
