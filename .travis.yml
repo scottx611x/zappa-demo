@@ -7,7 +7,7 @@ script:
 
 # Update zappa deployment on pushes to master
 after_success:
-  - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then zappa update -s zappa-settings-travis.json; fi
+  - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then zappa update production -s zappa-settings-travis.json; fi
 
 notifications:
     email:

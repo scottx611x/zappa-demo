@@ -26,15 +26,17 @@ We are deployed on AWS using a nifty tool called: [Zappa](https://github.com/Mis
 
 In short, this allows for great horizontal scaling, zero server maintenance/downtime, and we are only charged for the time that people access the site.
 
-- To deploy, simply: `zappa deploy`
-- To update an already deployed instance with new code: `zappa update`
+- Zappa allows for extremely simple staging of different enviornments
+- To deploy an environment, simply: `zappa deploy <enviornment_name>`
+- Ex: `zappa deploy development`
+- To update an already deployed instance with new code: `zappa update <enviornment_name>`
 
-> **NOTE: Currently all pushes to `master` will trigger an update of the currently deployed `zappa` site, so be cautious.**
+> **NOTE: Currently all pushes to `master` will trigger an update of the currently deployed `zappa` development site, so be cautious.**
 
 > **ANOTHER NOTE: A prior Zappa deployment is required for Travis auto-updating to work**
 
 # **BONUS**
-**Ngrok:** is a cool tool to expose a local server behind a NAT or firewall to the internet.
+**[Ngrok](https://ngrok.com/):** is a cool tool to expose a local server behind a NAT or firewall to the internet.
 
 -`brew cask install ngrok`
 - After following the flask installation instructions above as well as the ngrok ones, you can run:
