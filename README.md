@@ -1,4 +1,4 @@
-# zappa-demo [![Build Status](https://travis-ci.com/scottx611x/zappa-demo.svg?token=EkzyvwdZ2jcY78ErmS88&branch=master)](https://travis-ci.com/scottx611x/zappa-demo)
+# zappa-demo [![Build Status](https://travis-ci.org/scottx611x/zappa-demo.svg?branch=master)](https://travis-ci.org/scottx611x/zappa-demo)
 
 Demo of Zappa's functionality w a basic Flask app
 
