@@ -4,6 +4,21 @@ Demo of Zappa's functionality w a basic Flask app.
 
 See [this great Pycon talk](https://www.youtube.com/watch?v=vGphzPLemZE) for more cool ways to deploy your web apps.
 
+# What is [Zappa](https://github.com/Miserlou/Zappa) ?
+Zappa makes it super easy to build and deploy all Python WSGI applications on AWS Lambda + API Gateway. Think of it as "serverless" web hosting for your Python apps. 
+
+That means: 
+  - infinite scaling
+  - zero downtime
+  - zero maintenance
+  - pay a fraction of the cost of your current deployments!
+
+If you've got a Python web app (including Django and Flask apps), it's as easy as:
+
+`$ pip install zappa`
+`$ zappa init`
+`$ zappa deploy`
+
 # Pre-reqs:
 - Valid AWS credentials for [`boto3` usage](http://boto3.readthedocs.io/en/latest/guide/configuration.html#configuring-credentials)
 - `python`
@@ -22,10 +37,6 @@ You should be able to view the site @ http://localhost:5000
 - `python tests.py`
 
 # Deploying & Updating:
-We are deployed on AWS using a nifty tool called: [Zappa](https://github.com/Miserlou/Zappa) 
-
-In short, this allows for great horizontal scaling, zero server maintenance/downtime, and we are only charged for the time that people access the site.
-
 - Zappa allows for extremely simple staging of different enviornments
 - To deploy an environment, simply: `zappa deploy <enviornment_name>`
 - Ex: `zappa deploy development`
