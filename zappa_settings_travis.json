@@ -1,0 +1,8 @@
+{
+    "development": {
+        "app_function": "index.app", 
+        "aws_region": "us-east-1",
+        "project_name": "zappa-demo",
+        "s3_bucket": "zappa-demo-534d2b5a-ce0c-45df-9999-51ff32ab65d3",
+    }
+}

@@ -1,0 +1,16 @@
+language: python 
+python: '2.7'  
+install: 
+  - pip install -r requirements.txt
+script: 
+  - python tests.py
+
+# Update zappa deployment on pushes to master
+after_success:
+  - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then zappa update -s zappa-settings-travis.json; fi
+
+notifications:
+    email:
+        recipients:
+            - scottx611x@gmail.com
+    on_success: never
