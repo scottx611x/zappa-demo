@@ -35,12 +35,14 @@ In short, this allows for great horizontal scaling, zero server maintenance/down
 
 > **ANOTHER NOTE: A prior Zappa deployment is required for Travis auto-updating to work**
 
-> **ONE MORE NOTE: AWS_ACCESS_KEY & AWS_SECRET_ACCESS_KEY env. variables need to be set in travis for the auto-updating to work properly.**
+> **ONE MORE NOTE: AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY env. variables need to be set in travis for the auto-updating to work properly.**
 
 # **BONUS**
 **[Ngrok](https://ngrok.com/):** is a cool tool to expose a local server behind a NAT or firewall to the internet.
 
--`brew cask install ngrok`
+- `brew cask install ngrok`
 - After following the flask installation instructions above as well as the ngrok ones, you can run:
+
   `ngrok http 5000`
+
   and should recieve a link to a internet accessible instance of your app!
