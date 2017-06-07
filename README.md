@@ -16,7 +16,9 @@ That means:
 If you've got a Python web app (including Django and Flask apps), it's as easy as:
 
 `$ pip install zappa`
+
 `$ zappa init`
+
 `$ zappa deploy`
 
 # Pre-reqs:
