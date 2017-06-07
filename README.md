@@ -9,7 +9,7 @@ Demo of Zappa's functionality w a basic Flask app
 - [`virtualenvwrapper`](https://virtualenvwrapper.readthedocs.io/en/latest/install.html#installation) (optional, but reccomended)
 
 # Installation:
-- `mkvirtualenv zappa-demo && workon zappa-demo` (optional)
+- `mkvirtualenv zappa-demo-env && workon zappa-demo-env` (optional)
 - `pip install -r requirements.txt`
 - `export FLASK_APP=index.py`
 - `flask run`
