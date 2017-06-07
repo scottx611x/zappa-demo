@@ -31,7 +31,7 @@ In short, this allows for great horizontal scaling, zero server maintenance/down
 - Ex: `zappa deploy development`
 - To update an already deployed instance with new code: `zappa update <enviornment_name>`
 
-> **NOTE: Currently all pushes to `master` will trigger an update of the currently deployed `zappa` development site, so be cautious.**
+> **NOTE: Currently all commits to `master` will trigger an update of the currently deployed `zappa` production site, so be cautious.**
 
 > **ANOTHER NOTE: A prior Zappa deployment is required for Travis auto-updating to work**
 
