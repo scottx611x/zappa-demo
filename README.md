@@ -1,4 +1,6 @@
-# zappa-demo [![Build Status](https://travis-ci.org/scottx611x/zappa-demo.svg?branch=master)](https://travis-ci.org/scottx611x/zappa-demo)
+# zappa-demo [![Build Status](https://travis-ci.org/scottx611x/zappa-demo.svg?branch=master)](https://travis-ci.org/scottx611x/zappa-demo) <a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/gyj4KVn6fRKmyQv9inh3CFeR/scottx611x/zappa-demo'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/gyj4KVn6fRKmyQv9inh3CFeR/scottx611x/zappa-demo.svg' />
+</a>
 
 Demo of Zappa's functionality w a basic Flask app.
 
